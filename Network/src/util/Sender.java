@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-import GUI.GameState;
+import Game.GameState;
 import serializer.XMLHandler;
 
 /**

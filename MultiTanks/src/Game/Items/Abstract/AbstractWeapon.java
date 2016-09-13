@@ -1,4 +1,4 @@
-package Items.Abstract;
+package Game.Items.Abstract;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

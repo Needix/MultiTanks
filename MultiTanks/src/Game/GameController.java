@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package GUI;
+package Game;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
@@ -14,8 +14,9 @@ import java.util.Iterator;
 
 import javax.swing.JFrame;
 
-import Player.Player;
-import Player.Tank;
+import GUI.GUI;
+import Game.Player.Player;
+import Game.Player.Tank;
 import Main.Main;
 
 /**

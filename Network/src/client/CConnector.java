@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-import GUI.GameState;
+import Game.GameState;
 import util.Receiver;
 import util.Sender;
 

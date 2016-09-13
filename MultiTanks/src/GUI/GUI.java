@@ -22,6 +22,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
+import Game.GameController;
+
 /**
  *
  * @author Need

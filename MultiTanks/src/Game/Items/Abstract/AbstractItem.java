@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Items.Abstract;
+package Game.Items.Abstract;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

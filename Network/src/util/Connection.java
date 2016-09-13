@@ -2,7 +2,7 @@ package util;
 
 import java.net.Socket;
 
-import GUI.GameState;
+import Game.GameState;
 
 /**
  * This class contains the receiver and sender of a connection. The list of these connections is saved inside the ServerConnector

@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Player;
+package Game.Player;
 
 import java.awt.Point;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import Items.Abstract.AbstractItem;
+import Game.Items.Abstract.AbstractItem;
 
 /**
  *

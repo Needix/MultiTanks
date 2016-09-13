@@ -9,7 +9,7 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import javax.xml.transform.Result;
 
-import GUI.GameState;
+import Game.GameState;
 
 public class XMLHandler {
 	public static String serialize(GameState gs) {

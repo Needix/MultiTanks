@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 import java.net.SocketException;
 
-import GUI.GameState;
+import Game.GameState;
 import serializer.XMLHandler;
 
 /**

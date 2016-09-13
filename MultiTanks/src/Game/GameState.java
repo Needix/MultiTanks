@@ -1,11 +1,11 @@
-package GUI;
+package Game;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-import Player.Player;
+import Game.Player.Player;
 
 @XmlRootElement
 public class GameState {

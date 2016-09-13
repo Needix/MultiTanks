@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Observable;
 
-import GUI.GameState;
+import Game.GameState;
 import util.Connection;
 import util.Receiver;
 import util.Sender;

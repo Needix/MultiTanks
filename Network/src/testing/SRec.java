@@ -3,7 +3,7 @@ package testing;
 import java.io.IOException;
 import java.net.Socket;
 
-import GUI.GameState;
+import Game.GameState;
 import util.Connection;
 import util.Receiver;
 
