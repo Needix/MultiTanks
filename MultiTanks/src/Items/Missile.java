@@ -5,10 +5,29 @@
  */
 package Items;
 
+import Items.Abstract.AbstractWeapon;
+
 /**
  *
  * @author Need
  */
-public class Missile {
+public class Missile extends AbstractWeapon {
+
+	protected Missile(int amount) {
+		super("Missile", 1000, amount);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void AddItem(int amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Use() {
+		// TODO Auto-generated method stub
+		
+	}
     
 }

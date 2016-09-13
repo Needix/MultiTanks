@@ -5,17 +5,28 @@
  */
 package Player;
 
-import Items.AbstractAmmo;
+import java.awt.Point;
 import java.util.ArrayList;
+import java.util.Collection;
+
+import Items.Abstract.AbstractItem;
 
 /**
  *
  * @author Need
  */
 public class Player {
-    private String name;
-    private int money;
-    private Tank Tank;
-    private final ArrayList<AbstractAmmo> ammo = new ArrayList<>();
+    private String name; public String getName() { return name; }
+    private int money; public int getMoney() { return money; }
+    private Tank tank; public Tank getTank() { return tank; }
+    private final ArrayList<AbstractItem> items = new ArrayList<>(); public Collection<AbstractItem> getItems() { return java.util.Collections.unmodifiableCollection(items); } 
+     
+    public Player(String name, int money) {
+    	this.name = name;
+    	this.money = money;
+    }
     
+    public void SetupTank(int startHP, int angle, Point point) {
+    	tank = new Tank(startHP, angle, point);
+    }
 }
