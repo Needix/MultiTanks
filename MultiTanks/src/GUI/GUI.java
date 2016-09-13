@@ -34,7 +34,7 @@ public class GUI extends JPanel {
     private GameController controller;
     
     private static boolean abort;
-    private Thread thread;
+    private Thread thread; public void setThread(Thread t) { thread = t; }
     
     public GUI(JFrame frame, GameController controller) {
         GUIMain = frame;
@@ -62,6 +62,7 @@ public class GUI extends JPanel {
 				}
 			}
         });
+        gui.setThread(thread);
         thread.start();
         return gui;
     }

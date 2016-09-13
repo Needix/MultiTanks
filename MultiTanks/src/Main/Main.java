@@ -7,6 +7,8 @@ package Main;
 
 import GUI.*;
 import Game.GameController;
+import MathExpression.Parser;
+import World.World;
 
 /**
  *
@@ -19,6 +21,13 @@ public class Main {
      */
     public static void main(String[] args) {
     	new GameController();
+    	World w = new World();
+    	try {
+			w.GenerateRandomWorld(5000);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     }
     
 }

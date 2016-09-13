@@ -28,8 +28,11 @@ public class GameController {
 	private GUI gui;
 	
 	//GameControl
-	private GameState gameState;
+	private GameState gameState = new GameState();
 	
+	public GameController() {
+		CreateGUI();
+	}
 	
     public void CreateGUI() {
         final GameController c = this;
@@ -45,7 +48,9 @@ public class GameController {
 
     public void StartGame() {
     	Player p1 = new Player("Test1", 1000);
+    	p1.SetupTank(100, 45, new Point(100,100));
     	Player p2 = new Player("Test1", 1000);
+    	p2.SetupTank(100, 135, new Point(900,100));
     	gameState.addPlayer(p1);
     	gameState.addPlayer(p2);
     }

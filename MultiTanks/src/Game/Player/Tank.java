@@ -46,8 +46,8 @@ public class Tank {
     
     private void LoadImages() {
     	ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
-    	InputStream tankStream = classLoader.getResourceAsStream("Resources/Tank.png");
-    	InputStream barrelStream = classLoader.getResourceAsStream("Resources/Barrel.png");
+    	InputStream tankStream = classLoader.getResourceAsStream("Tank.png");
+    	InputStream barrelStream = classLoader.getResourceAsStream("Barrel.png");
     	
     	try { tankImage = ImageIO.read(tankStream); } catch (IOException e) { }
     	try { barrelImage = ImageIO.read(barrelStream); } catch (IOException e) { }
